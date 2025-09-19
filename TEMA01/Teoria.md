@@ -4,7 +4,7 @@
 ## Contenido
 1. [Introducción](#-introducción)
 2. [Tipos de ficheros](#-tipos-de-ficheros)
-3. [Clase `File` (java.io.File)](#-clase-file-javaiofile)
+   - [Clase `File` (java.io.File)](#-clase-file-javaiofile)
 4. [Formas de acceso](#-formas-de-acceso)
    - Secuencial (bytes / caracteres)
    - Aleatorio
@@ -87,14 +87,16 @@ public class moverFichero {
 | `delete()`           | Elimina el fichero o directorio        |
 | `mkdirs()`           | Crea directorio(s)                     |
 | `getName()`          | Devuelve nombre                        |
+| `getPath()`          | Devuelve ruta relativa                 |
 | `getAbsolutePath()`  | Ruta absoluta                          |
 | `exists()`           | Comprueba si existe                    |
-| `renameTo(File f)`   | Mueve/renombra un fichero              |
+| `renameTo()`   | Mueve/renombra un fichero              |
 | `canRead()`/`canWrite()` | Permisos de lectura/escritura       |
+| `listFiles()`        | Array con los ficheros directorio       |
 
 ---
 
-## 🔄 Formas de acceso
+## 3. Formas de acceso
 ### Acceso secuencial
 Recorre el fichero **byte a byte** o **carácter a carácter**.
 
