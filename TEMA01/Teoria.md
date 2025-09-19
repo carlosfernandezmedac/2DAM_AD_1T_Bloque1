@@ -38,15 +38,41 @@ Permite crear, borrar, mover y consultar información sobre un fichero.
 ```java
 import java.io.File;
 
-public class CrearFichero {
+public class crearFichero {
+
     public static void main(String[] args) {
         try {
-            File fichero = new File("CrearFichero.txt");
+            File fichero = new File(".\\TEMA01\\Ejemplos\\crearFichero.txt");
             if (fichero.createNewFile()) {
                 System.out.println("Fichero creado: " + fichero.getName());
             } else {
                 System.out.println("El fichero ya existe.");
             }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### Mover un fichero
+```java
+import java.io.File;
+
+public class moverFichero {
+
+    public static void main(String[] args) {
+        try {
+            File ficheroOrigen = new File(".\\TEMA01\\Ejemplos\\crearFichero.txt");
+            String nombreCarpeta = "Backup";
+            File carpeta = new File (".\\TEMA01\\Ejemplos", nombreCarpeta);
+            carpeta.mkdirs();
+            
+            File ficheroDestino = new File (".\\TEMA01\\Ejemplos\\Backup\\fichero_movido.txt");
+            if (ficheroOrigen.renameTo(ficheroDestino))
+                System.out.println("El fichero se movió correctamente");
+            else
+                System.out.println("El fichero no pudo moverse");
         } catch (Exception e) {
             e.printStackTrace();
         }
