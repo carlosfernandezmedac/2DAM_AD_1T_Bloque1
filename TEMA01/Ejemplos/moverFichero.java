@@ -1,0 +1,21 @@
+import java.io.File;
+
+public class moverFichero {
+
+    public static void main(String[] args) {
+        try {
+            File ficheroOrigen = new File(".\\TEMA01\\Ejemplos\\crearFichero.txt");
+            String nombreCarpeta = "Backup";
+            File carpeta = new File (".\\TEMA01\\Ejemplos", nombreCarpeta);
+            carpeta.mkdirs();
+            
+            File ficheroDestino = new File (".\\TEMA01\\Ejemplos\\Backup\\fichero_movido.txt");
+            if (ficheroOrigen.renameTo(ficheroDestino))
+                System.out.println("El fichero se movió correctamente");
+            else
+                System.out.println("El fichero no pudo moverse");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
