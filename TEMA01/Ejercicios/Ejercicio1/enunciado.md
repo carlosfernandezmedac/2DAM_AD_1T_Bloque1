@@ -12,20 +12,17 @@ El programa debe seguir estos pasos:
    - Escribir ese bloque en el archivo de destino utilizando el buffer de escritura.
    - Después de escribir cada bloque, mostrar por consola un mensaje como:
 
-     ```text
      Fin copia bloque 1
      Fin copia bloque 2
-     ...
-     ```
+
 
 6. Al finalizar la copia, añadir al final del archivo destino la siguiente cadena:
-
-   ```text
+ 
    Última modificación: 25-09-2023 15:04:01
 
-   Cerrar correctamente ambos archivos, asegurando la liberación de recursos.
+7. Cerrar correctamente ambos archivos, asegurando la liberación de recursos.
 
-7. Manejar adecuadamente las excepciones en caso de que:
+8. Manejar adecuadamente las excepciones en caso de que:
 
    - El archivo de origen no exista.
    - Ocurra un error durante la lectura o escritura de los archivos.
