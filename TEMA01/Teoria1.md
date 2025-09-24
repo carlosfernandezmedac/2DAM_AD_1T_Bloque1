@@ -241,3 +241,4 @@ public class LeerConBuffer {
 - [Audio: Método Close automático](https://bit.ly/3dyeWjm)  
 
 ---
+
