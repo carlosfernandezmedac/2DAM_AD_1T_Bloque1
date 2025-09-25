@@ -206,9 +206,9 @@ Clases:
 - `BufferedInputStream`, `BufferedOutputStream`
 
 
-[Ejemplo7.java](./TEMA01/Ejemplos/Ejemplo7.java)
-<a href="./TEMA01/Ejemplos/Ejemplo7.java" target="_blank">Ejemplo7.java</a>
-```
+[Ejemplo7.java](./Ejemplos/Ejemplo7.java)
+<a href="./Ejemplos/Ejemplo7.java" target="_blank">Ejemplo7.java</a>
+
 
 ---
 
