@@ -1,6 +1,8 @@
 import java.io.File;
 
-public class crearFichero {
+//Ejmplo: Crea un fichero vacío en la ruta indicada si no existe
+
+public class Ejemplo1 {
 
     public static void main(String[] args) {
         try {

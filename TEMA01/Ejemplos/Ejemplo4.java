@@ -1,8 +1,9 @@
 import java.io.FileReader;
 import java.io.FileWriter;
 
+//Ejemplo: uso de FileReader y FileWriter
 
-public class ejemploFileReaderWriter {
+public class Ejemplo4 {
     
     public static void main(String[] args) {
 

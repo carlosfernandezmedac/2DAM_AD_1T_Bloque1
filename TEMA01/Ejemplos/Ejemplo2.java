@@ -1,6 +1,8 @@
 import java.io.File;
 
-public class moverFichero {
+// Ejemplo: Mover carpeta con renameTo
+
+public class Ejemplo2 {
 
     public static void main(String[] args) {
         try {

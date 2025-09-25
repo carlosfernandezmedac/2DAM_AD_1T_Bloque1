@@ -3,8 +3,9 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+//Ejemplo de uso de FileInputStream y FileOutputStream
 
-public class ejemploFileInputOutputStream {
+public class Ejemplo5 {
     
     public static void main(String[] args) {
 

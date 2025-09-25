@@ -1,9 +1,8 @@
-import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.RandomAccessFile;
 
+//Ejemplo de acceso aleatorio o directo
 
-public class accesoAleatorio {
+public class Ejemplo6 {
     
     public static void main(String[] args) {
 
@@ -19,10 +18,10 @@ public class accesoAleatorio {
             System.out.println((char)unByte);
             System.out.println(filePointer);
             file.write('X');
+            file.close();
 
         } catch (Exception e) {
             e.printStackTrace();
         }
-        
     }
 }
