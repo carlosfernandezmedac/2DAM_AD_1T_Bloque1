@@ -8,7 +8,6 @@ En este tema aprenderemos a:
 - Crear, modificar y borrar **ficheros y directorios**.
 - Diferenciar entre **acceso secuencial** y **acceso aleatorio**.
 - Usar clases de la librería `java.io`.
-- Esto es una prueba
 ---
 
 ## 2. Tipos de ficheros
