@@ -1,6 +1,5 @@
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
-import java.nio.charset.StandardCharsets;
 
 //Ejemplo: Operaciones con buffer
 
@@ -9,13 +8,11 @@ public class Ejemplo7 {
     public static void main(String[] args) {
 
          try {
-            int bufferSize = 5;
+            int bufferSize = 12;
         
             BufferedInputStream bufferedInputStream = new BufferedInputStream(
-                        new FileInputStream(".\\TEMA01\\Ejemplos\\Texto.txt"), bufferSize);
+                        new FileInputStream(".\\TEMA01\\Ejemplos\\Texto.txt"));
             
-           
-
              // Crear un array de bytes para almacenar cada bloque leído
             byte[] buffer = new byte[bufferSize];
             int info;    

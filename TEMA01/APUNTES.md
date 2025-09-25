@@ -207,8 +207,6 @@ Clases:
 
 
 [Ejemplo7.java](./Ejemplos/Ejemplo7.java)
-<a href="./Ejemplos/Ejemplo7.java" target="_blank">Ejemplo7.java</a>
-
 
 ---
 
