@@ -199,37 +199,18 @@ public class Aleatorio {
 ---
 
 ## 6. Operaciones con Buffer
-Los buffers almacenan datos temporalmente en **memoria** → mejoran rendimiento.
+Los buffers almacenan datos temporalmente en **memoria** → mejoran rendimiento (más rápido que en disco)
 
 Clases:
 - `BufferedReader`, `BufferedWriter`
 - `BufferedInputStream`, `BufferedOutputStream`
 
-Ejemplo:
-```java
-import java.io.BufferedReader;
-import java.io.FileReader;
 
-public class LeerConBuffer {
-    public static void main(String[] args) {
-        try (BufferedReader br = new BufferedReader(new FileReader("texto.txt"))) {
-            String linea;
-            while ((linea = br.readLine()) != null) {
-                System.out.println(linea);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-}
+[Ejemplo7.java](./TEMA01/Ejemplos/Ejemplo7.java)
+<a href="./TEMA01/Ejemplos/Ejemplo7.java" target="_blank">Ejemplo7.java</a>
 ```
 
 ---
-
-## Casos prácticos
-1. **Gestor de archivos**: Crear directorios, ficheros y moverlos → usar `File`.  
-2. **Lectura secuencial de texto**: Usar `FileReader` y `FileWriter`.  
-3. **Acceso a registros binarios concretos**: Usar `RandomAccessFile`.  
 
 📺 [Vídeo: Escritura con FileOutputStream](https://bit.ly/2U3CBQX)  
 📺 [Vídeo: RandomAccessFile read](https://bit.ly/2MqSY66)  
@@ -238,6 +219,5 @@ public class LeerConBuffer {
 
 ## Recursos
 - [Documentación oficial Java IO](https://docs.oracle.com/javase/8/docs/api/?java/io)  
-- [Audio: Método Close automático](https://bit.ly/3dyeWjm)  
 
 ---
