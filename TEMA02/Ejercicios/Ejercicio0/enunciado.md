@@ -1,4 +1,4 @@
-## Ejemplo 2.6: Extracción de datos usando clases de análisis de flujos
+## Extracción de datos usando clases de análisis de flujos
 
 **Objetivo**  
 Practicar el análisis de flujos de datos en Java utilizando las clases vistas hasta ahora (`LineNumberReader`, `StreamTokenizer`, etc.) para analizar un archivo de texto y contar cuántas palabras y cuántos números hay en cada línea.
