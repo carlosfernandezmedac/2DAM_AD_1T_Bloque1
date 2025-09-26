@@ -2,9 +2,9 @@
 
 ## 📘 Contenidos del Bloque 1 - Manejo de ficheros
 
-- [**Tema 1:** Introducción al manejo de ficheros](TEMA01/Teoria.md) 
-- [**Tema 2:** Flujos](TEMA02/Teoria.md) 
-- [**Tema 3:** Trabajo con ficheros XML](TEMA03/Teoria.md) 
+- [**Tema 1:** Introducción al manejo de ficheros](TEMA01/APUNTES.md) 
+- [**Tema 2:** Flujos](TEMA02/APUNTES.md) 
+- [**Tema 3:** Trabajo con ficheros XML](TEMA03/APUNTES.md) 
 
 ---
 
