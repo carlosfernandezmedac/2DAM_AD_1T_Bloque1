@@ -13,18 +13,18 @@ Practicar el análisis de flujos de datos en Java utilizando las clases vistas h
    12345
    ```
 
-Escribe un programa en Java que lea el archivo y cuente cuántas palabras y cuántos números hay en cada línea.
-Utiliza las clases de análisis de flujos (p. ej., LineNumberReader para leer línea por línea y StreamTokenizer para diferenciar palabras y números).
+2. Escribe un programa en Java que lea el archivo y cuente cuántas palabras y cuántos números hay en cada línea.
+   Utiliza las clases de análisis de flujos (p. ej., LineNumberReader para leer línea por línea y StreamTokenizer para diferenciar palabras y números).
 
-Muestra el resultado en la terminal con el siguiente formato (ajustando los valores a lo que obtengas):
+   Muestra el resultado en la terminal con el siguiente formato (ajustando los valores a lo que obtengas):
 
-```text
-Línea 1: Hola 123 Mundo
-Palabras: 2, Números: 1
+   ```text
+   Línea 1: Hola 123 Mundo
+   Palabras: 2, Números: 1
 
-Línea 2: Prueba 45.67 de texto
-Palabras: 3, Números: 1
+   Línea 2: Prueba 45.67 de texto
+   Palabras: 3, Números: 1
 
-Línea 3: 12345
-Palabras: 0, Números: 1
-```
+   Línea 3: 12345
+   Palabras: 0, Números: 1
+   ```
